@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "iqontrol",
-    "version": "2.0.0-rc2.2",
+    "version": "2.0.0-rc2.3",
     "news": {
+      "2.0.0-rc2.3": {
+        "en": "Test release no. 2",
+        "de": "Testversion Nr. 2",
+        "ru": "Номер тестового релиза. 2",
+        "pt": "Versão de teste nº. 2",
+        "nl": "Testversie nr. 2",
+        "fr": "Version d'essai no. 2",
+        "it": "Versione di prova n. 2",
+        "es": "Versión de prueba no. 2",
+        "pl": "Wersja testowa nr. 2",
+        "zh-cn": "测试版本号2"
+      },
       "2.0.0-rc2.2": {
         "en": "Test release",
         "de": "Testfreigabe",
@@ -74,18 +86,6 @@
         "es": "Presentamos una nueva y poderosa función: listas y contadores.\nEl widget de tabla JSON ahora acepta listas simples (por ejemplo, una matriz de puntos de datos).\nSe agregó una fuente configurable al widget de tabla JSON.\nSe agregó la clasificación de columnas a JSON-Table-Widget.\nSe agregó encabezado y opción de color de borde al widget de tabla JSON.\nDispositivo-Contador-Widget agregado.\nOpción agregada para mostrar POWER como estado.\nSe agregó una vista previa de la apariencia del mosaico al configurar los colores del mosaico.\nSe agregó la configuración de la barra de desplazamiento para Firefox.\nOpción agregada para ajustar la altura del mosaico al tamaño de BACKGROUND_VIEW.\nOpción agregada para cambiar e invertir INFO_A/B-Symbols.\nOpción agregada para invertir el color de los íconos INFO_A/B para el modo oscuro.\nSe agregó la opción para ocultar los íconos indicadores si están inactivos, activos o ampliados.\nSe agregó la función de importación y exportación a las opciones del dispositivo.\nSe agregó widget-replaceurl a los widgets, lo que permite la creación de ajustes preestablecidos de widgets simplificados, como preparación para un mayor desarrollo.\nSe agregó la opción al reproductor multimedia para deshabilitar la recarga forzada de la imagen de portada en el cambio de TÍTULO.\nAjustes para ALTERNATIVE_COLORSPACE.\nSe agregó widget-replaceurl como parámetro de configuración del widget.\nSe modificó el comportamiento de min/max/ignore-min-max-settings de FLOT-Chart-Widget.\nSe agregó la función de exportación e importación a los dispositivos.\nSe corrigió el radio de borde para el modo grande.\nSe agregaron valores configurables para 'cerrado' y 'bloqueado' para 'Puerta con cerradura'\nTargetValues fijos para Admin 5.",
         "pl": "Przedstawiamy nową, potężną funkcję: Listy i Liczniki.\nJSON-Table-Widget akceptuje teraz proste listy (na przykład tablicę punktów danych).\nDodano konfigurowalną czcionkę do widżetu tabeli JSON.\nDodano sortowanie kolumn do JSON-Table-Widget.\nDodano opcję nagłówka i koloru obramowania do widżetu tabeli JSON.\nDodano widget licznika urządzeń.\nDodano opcję pokazywania POWER jako stanu.\nDodano podgląd wyglądu kafelków podczas ustawiania kolorów kafelków.\nDodano ustawienia paska przewijania dla firefoxa.\nDodano opcję dostosowania wysokości kafelka do rozmiaru BACKGROUND_VIEW.\nDodano opcję zmiany i odwrócenia symboli INFO_A/B.\nDodano opcję odwrócenia koloru ikon INFO_A/B dla trybu ciemnego.\nDodano opcję ukrywania ikon wskaźników, jeśli są nieaktywne, aktywne lub powiększone.\nDodano funkcję importu i eksportu do opcji urządzenia.\nDodano widget-replaceurl do widgetów, który umożliwia tworzenie uproszczonych widgetów-presetów, jako przygotowanie do dalszego rozwoju.\nDodano opcję do odtwarzacza multimedialnego, aby wyłączyć wymuszone przeładowanie obrazu okładki przy zmianie TITLE.\nKorekty dla ALTERNATIVE_COLORSPACE.\nDodano widget-replaceurl jako parametr konfiguracyjny widgetu.\nZmieniono zachowanie ustawień min/max/ignore-min-max-FLOT-Chart-Widget.\nDodano funkcję eksportu i importu do urządzeń.\nNaprawiono promień graniczny dla dużego trybu.\nDodano konfigurowalne wartości dla „zamkniętych” i „zamkniętych” dla „Drzwi z zamkiem”\nStałe wartości docelowe dla administratora 5.",
         "zh-cn": "引入一个强大的新功能：列表和计数器。\nJSON-Table-Widget 现在接受简单的列表（例如数据点数组）。\n向 JSON 表小部件添加了可配置字体。\n向 JSON-Table-Widget 添加了列排序。\n向 JSON 表小部件添加了标题和边框颜色选项。\n添加了设备计数器小部件。\n添加了将 POWER 显示为状态的选项。\n在设置瓷砖颜色时添加了瓷砖外观的预览。\n添加了 Firefox 的滚动条设置。\n添加了将平铺高度调整为背景视图大小的选项。\n添加了更改和反转 INFO_A/B 符号的选项。\n添加了在暗模式下反转 INFO_A/B 图标颜色的选项。\n添加了在不活动、活动或放大时隐藏指示器图标的选项。\n在设备选项中添加了导入和导出功能。\n为小部件添加了 widget-replaceurl，它允许创建简化的小部件预设，为进一步开发做准备。\n为媒体播放器添加了选项，以禁用在标题更改时强制重新加载封面图像。\nALTERNATIVE_COLORSPACE 的调整。\n添加了 widget-replaceurl 作为小部件配置参数。\n更改了 FLOT-Chart-Widget 的 min/max/ignore-min-max-settings 的行为。\n为设备添加了导出和导入功能。\n修复了大模式的边界半径。\n为“带锁的门”添加了“关闭”和“锁定”的可配置值\n修复了 Admin 5 的 targetValues。"
-      },
-      "1.11.0": {
-        "en": "Added the ability to globally change the default icons.\nIntroducing iconsets and fluent icons.\nAdded option to change badge font and color.\nFixed setting of font family.\nFixed LayoutViewDeviceInactiveHoverOpacity.",
-        "de": "Möglichkeit hinzugefügt, die Standardsymbole global zu ändern.\nEinführung von Iconsets und fließenden Icons.\nOption zum Ändern der Schriftart und Farbe des Abzeichens hinzugefügt.\nFeste Einstellung der Schriftfamilie.\nLayoutViewDeviceInactiveHoverOpacity behoben.",
-        "ru": "Добавлена возможность глобального изменения значков по умолчанию.\nПредставляем наборы иконок и беглые значки.\nДобавлена возможность изменить шрифт и цвет значка.\nИсправлена установка семейства шрифтов.\nФиксированный LayoutViewDeviceInactiveHoverOpacity.",
-        "pt": "Adicionada a capacidade de alterar globalmente os ícones padrão.\nApresentando conjuntos de ícones e ícones fluentes.\nAdicionada opção para alterar a fonte e a cor do emblema.\nConfiguração fixa da família da fonte.\nLayoutViewDeviceInactiveHoverOpacity corrigido.",
-        "nl": "De mogelijkheid toegevoegd om de standaardpictogrammen globaal te wijzigen.\nIntroductie van pictogrammensets en vloeiende pictogrammen.\nOptie toegevoegd om het lettertype en de kleur van de badge te wijzigen.\nVaste instelling van lettertypefamilie.\nVaste lay-outViewDeviceInactiveHoverOpacity.",
-        "fr": "Ajout de la possibilité de modifier globalement les icônes par défaut.\nPrésentation des ensembles d'icônes et des icônes fluides.\nAjout d'une option pour changer la police et la couleur du badge.\nRéglage fixe de la famille de polices.\nMise en page fixeViewDeviceInactiveHoverOpacity.",
-        "it": "Aggiunta la possibilità di modificare globalmente le icone predefinite.\nPresentazione di set di icone e icone fluenti.\nAggiunta l'opzione per cambiare il carattere e il colore del badge.\nImpostazione fissa della famiglia di caratteri.\nRisolto il problema con LayoutViewDeviceInactiveHoverOpacity.",
-        "es": "Se agregó la capacidad de cambiar globalmente los íconos predeterminados.\nPresentamos conjuntos de iconos e iconos fluidos.\nOpción agregada para cambiar la fuente y el color de la insignia.\nConfiguración fija de la familia de fuentes.\nSe corrigió LayoutViewDeviceInactiveHoverOpacity.",
-        "pl": "Dodano możliwość globalnej zmiany domyślnych ikon.\nPrzedstawiamy zestawy ikon i płynne ikony.\nDodano możliwość zmiany czcionki i koloru znaczka.\nPoprawiono ustawienie rodziny czcionek.\nNaprawiono LayoutViewDeviceInactiveHoverOpacity.",
-        "zh-cn": "添加了全局更改默认图标的功能。\n介绍图标集和流畅的图标。\n添加了更改徽章字体和颜色的选项。\n固定字体系列的设置。\n修复了 LayoutViewDeviceInactiveHoverOpacity。"
       }
     },
     "title": "iQontrol Vis",

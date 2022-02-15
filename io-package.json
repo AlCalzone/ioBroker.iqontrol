@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "iqontrol",
-    "version": "2.0.0-rc2.5",
+    "version": "2.0.0-rc2.6",
     "news": {
+      "2.0.0-rc2.6": {
+        "en": "Test release no. 5",
+        "de": "Testversion Nr. 5",
+        "ru": "Номер тестового релиза. 5",
+        "pt": "Versão de teste nº. 5",
+        "nl": "Testversie nr. 5",
+        "fr": "Version d'essai no. 5",
+        "it": "Versione di prova n. 5",
+        "es": "Versión de prueba no. 5",
+        "pl": "Wersja testowa nr. 5",
+        "zh-cn": "测试版本号5"
+      },
       "2.0.0-rc2.5": {
         "en": "Test release no. 4",
         "de": "Testversion Nr. 4",
@@ -74,18 +86,6 @@
         "es": "Se corrigió el conteo de registros.\nLas listas ahora se guardan como de solo lectura y con ack=true.\nResplandor fijo.\nOpción agregada para definir cómo se determina el nombre principal de las listas.\nSe agregó el botón Guardar a los cuadros de diálogo.",
         "pl": "Naprawiono liczenie dzienników.\nListy są teraz zapisywane jako tylko do odczytu iz ack=true.\nNaprawiono blask.\nDodano możliwość określenia, w jaki sposób określana jest nazwa nadrzędna list.\nDodano przycisk zapisu do okien dialogowych.",
         "zh-cn": "固定的日志计数。\n列表现在保存为只读且 ack=true。\n固定发光。\n添加了选项来定义，如何确定列表的父名称。\n向对话框添加了保存按钮。"
-      },
-      "2.0.0-rc1.2": {
-        "en": "Fixed counting of logs.\nLists are now saved as readonly and with ack=true.",
-        "de": "Zählen von Protokollen behoben.\nListen werden jetzt schreibgeschützt und mit ack=true gespeichert.",
-        "ru": "Исправлен подсчет логов.\nСписки теперь сохраняются только для чтения и с ack=true.",
-        "pt": "Contagem fixa de logs.\nAs listas agora são salvas como somente leitura e com ack=true.",
-        "nl": "Vast tellen van logs.\nLijsten worden nu opgeslagen als alleen-lezen en met ack=true.",
-        "fr": "Correction du comptage des journaux.\nLes listes sont désormais enregistrées en lecture seule et avec ack=true.",
-        "it": "Corretto il conteggio dei log.\nGli elenchi vengono ora salvati in sola lettura e con ack=true.",
-        "es": "Se corrigió el conteo de registros.\nLas listas ahora se guardan como de solo lectura y con ack=true.",
-        "pl": "Naprawiono liczenie dzienników.\nListy są teraz zapisywane jako tylko do odczytu iz ack=true.",
-        "zh-cn": "固定的日志计数。\n列表现在保存为只读且 ack=true。"
       }
     },
     "title": "iQontrol Vis",

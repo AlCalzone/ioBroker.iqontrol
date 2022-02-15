@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "iqontrol",
-    "version": "2.0.0-rc2.6",
+    "version": "2.0.0-rc2.7",
     "news": {
+      "2.0.0-rc2.7": {
+        "en": "Test release no. 6",
+        "de": "Testversion Nr. 6",
+        "ru": "Номер тестового релиза. 6",
+        "pt": "Versão de teste nº. 6",
+        "nl": "Testversie nr. 6",
+        "fr": "Version d'essai no. 6",
+        "it": "Versione di prova n. 6",
+        "es": "Versión de prueba no. 6",
+        "pl": "Wersja testowa nr. 6",
+        "zh-cn": "测试版本号6"
+      },
       "2.0.0-rc2.6": {
         "en": "Test release no. 5",
         "de": "Testversion Nr. 5",
@@ -74,18 +86,6 @@
         "es": "El botón Cancelar ahora funciona en modo de vista previa.",
         "pl": "Przycisk Przerwij działa teraz w trybie podglądu.",
         "zh-cn": "中止按钮现在在预览模式下工作。"
-      },
-      "2.0.0-rc2.0": {
-        "en": "Fixed counting of logs.\nLists are now saved as readonly and with ack=true.\nFixed glow.\nAdded option to define, how the parent name of lists is determined.\nAdded save-button to dialogs.",
-        "de": "Zählen von Protokollen behoben.\nListen werden jetzt schreibgeschützt und mit ack=true gespeichert.\nFestes Leuchten.\nOption hinzugefügt, um zu definieren, wie der übergeordnete Name von Listen bestimmt wird.\nSpeichern-Schaltfläche zu Dialogen hinzugefügt.",
-        "ru": "Исправлен подсчет логов.\nСписки теперь сохраняются только для чтения и с ack=true.\nФиксированное свечение.\nДобавлена возможность определить, как определяется родительское имя списков.\nДобавлена кнопка сохранения в диалоги.",
-        "pt": "Contagem fixa de logs.\nAs listas agora são salvas como somente leitura e com ack=true.\nBrilho fixo.\nAdicionada opção para definir como o nome pai das listas é determinado.\nAdicionado botão salvar aos diálogos.",
-        "nl": "Vast tellen van logs.\nLijsten worden nu opgeslagen als alleen-lezen en met ack=true.\nVaste gloed.\nOptie toegevoegd om te definiëren hoe de bovenliggende naam van lijsten wordt bepaald.\nOpslaan-knop toegevoegd aan dialoogvensters.",
-        "fr": "Correction du comptage des journaux.\nLes listes sont désormais enregistrées en lecture seule et avec ack=true.\nLueur fixe.\nAjout d'une option pour définir comment le nom parent des listes est déterminé.\nAjout d'un bouton de sauvegarde aux boîtes de dialogue.",
-        "it": "Corretto il conteggio dei log.\nGli elenchi vengono ora salvati in sola lettura e con ack=true.\nBagliore fisso.\nAggiunta opzione per definire come viene determinato il nome principale delle liste.\nAggiunto il pulsante di salvataggio alle finestre di dialogo.",
-        "es": "Se corrigió el conteo de registros.\nLas listas ahora se guardan como de solo lectura y con ack=true.\nResplandor fijo.\nOpción agregada para definir cómo se determina el nombre principal de las listas.\nSe agregó el botón Guardar a los cuadros de diálogo.",
-        "pl": "Naprawiono liczenie dzienników.\nListy są teraz zapisywane jako tylko do odczytu iz ack=true.\nNaprawiono blask.\nDodano możliwość określenia, w jaki sposób określana jest nazwa nadrzędna list.\nDodano przycisk zapisu do okien dialogowych.",
-        "zh-cn": "固定的日志计数。\n列表现在保存为只读且 ack=true。\n固定发光。\n添加了选项来定义，如何确定列表的父名称。\n向对话框添加了保存按钮。"
       }
     },
     "title": "iQontrol Vis",

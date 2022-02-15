@@ -1,8 +1,20 @@
 {
   "common": {
     "name": "iqontrol",
-    "version": "2.0.0-rc2.1",
+    "version": "2.0.0-rc2.2",
     "news": {
+      "2.0.0-rc2.2": {
+        "en": "Test release",
+        "de": "Testfreigabe",
+        "ru": "Тестовый выпуск",
+        "pt": "Versão de teste",
+        "nl": "Testversie",
+        "fr": "Version d'essai",
+        "it": "Rilascio di prova",
+        "es": "Versión de prueba",
+        "pl": "Wersja testowa",
+        "zh-cn": "测试版本"
+      },
       "2.0.0-rc2.1": {
         "en": "Abort button now works in preview mode.",
         "de": "Die Abbrechen-Schaltfläche funktioniert jetzt im Vorschaumodus.",
@@ -74,18 +86,6 @@
         "es": "Se agregó la capacidad de cambiar globalmente los íconos predeterminados.\nPresentamos conjuntos de iconos e iconos fluidos.\nOpción agregada para cambiar la fuente y el color de la insignia.\nConfiguración fija de la familia de fuentes.\nSe corrigió LayoutViewDeviceInactiveHoverOpacity.",
         "pl": "Dodano możliwość globalnej zmiany domyślnych ikon.\nPrzedstawiamy zestawy ikon i płynne ikony.\nDodano możliwość zmiany czcionki i koloru znaczka.\nPoprawiono ustawienie rodziny czcionek.\nNaprawiono LayoutViewDeviceInactiveHoverOpacity.",
         "zh-cn": "添加了全局更改默认图标的功能。\n介绍图标集和流畅的图标。\n添加了更改徽章字体和颜色的选项。\n固定字体系列的设置。\n修复了 LayoutViewDeviceInactiveHoverOpacity。"
-      },
-      "1.10.0": {
-        "en": "Fixed ALTERNATIVE_COLORSPACE.\nAdded option to change the icons for BATTERY, UNREACH and ERROR.",
-        "de": "ALTERNATIVE_COLORSPACE behoben.\nOption zum Ändern der Symbole für BATTERY, UNREACH und ERROR hinzugefügt.",
-        "ru": "Исправлено ALTERNATIVE_COLORSPACE.\nДобавлена возможность изменить значки для АККУМУЛЯТОР, НЕДОСТУПЕН и ОШИБКА.",
-        "pt": "ALTERNATIVE_COLORSPACE corrigido.\nAdicionada opção para alterar os ícones de BATERIA, UNREACH e ERROR.",
-        "nl": "ALTERNATIVE_COLORSPACE opgelost.\nOptie toegevoegd om de pictogrammen voor BATTERY, UNREACH en ERROR te wijzigen.",
-        "fr": "Correction d'ALTERNATIVE_COLORSPACE.\nAjout d'une option pour changer les icônes pour BATTERIE, UNREACH et ERREUR.",
-        "it": "Risolto il problema con ALTERNATIVE_COLORSPACE.\nAggiunta l'opzione per cambiare le icone per BATTERIA, UNREACH ed ERRORE.",
-        "es": "Se corrigió ALTERNATIVE_COLORSPACE.\nOpción agregada para cambiar los íconos de BATERÍA, UNREACH y ERROR.",
-        "pl": "Naprawiono ALTERNATIVE_COLORSPACE.\nDodano opcję zmiany ikon dla BATERIA, UNREACH i ERROR.",
-        "zh-cn": "修复了 ALTERNATIVE_COLORSPACE。\n添加了更改 BATTERY、UNREACH 和 ERROR 图标的选项。"
       }
     },
     "title": "iQontrol Vis",
